@@ -1,0 +1,27 @@
+.intro {
+    padding: 64px 0;
+    margin: auto;
+    max-width: calc(100% - 32px);
+    font-family: 'Inter', Arial, sans-serif;
+    color: white;
+}
+
+@media (min-width: 650px) {
+    .intro {
+        padding: 88px 0;
+        max-width: calc(100% - 48px);
+    }
+}
+
+@media (min-width: 950px) {
+    .intro {
+        padding: 92px 0;
+        max-width: calc(100% - 96px);
+    }
+}
+
+@media (min-width: 1250px) {
+    .intro {
+        max-width: 984px;
+    }
+}

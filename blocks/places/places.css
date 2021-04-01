@@ -1,0 +1,26 @@
+.places {
+    margin: auto;
+    padding: 14px 0 66px;
+    font-family: 'Inter', Arial, sans-serif;
+    color: white;
+}
+
+@media (min-width: 650px) {
+    .places {
+        padding: 88px 0;
+        max-width: calc(100% - 48px);
+    }
+}
+
+@media (min-width: 950px) {
+    .places {
+        padding: 92px 0;
+        max-width: calc(100% - 96px);
+    }
+}
+
+@media (min-width: 1250px) {
+    .places {
+        max-width: 984px;
+    }
+}

@@ -1,0 +1,25 @@
+.photo-grid {
+    margin: auto;
+    padding: 0 16px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 12px;
+}
+
+@media (min-width: 650px) {
+    .photo-grid {
+        gap: 16px;
+    }
+}
+
+@media (min-width: 950px) {
+    .photo-grid {
+        gap: 14px;
+    }
+}
+
+@media (min-width: 1250px) {
+    .photo-grid {
+        gap: 16px;
+    }
+}

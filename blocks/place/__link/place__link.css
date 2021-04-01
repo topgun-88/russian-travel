@@ -1,0 +1,20 @@
+.place__link {
+    margin: 0;
+    padding: 0 16px;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    text-decoration-line: underline;
+    color: inherit;
+    transition: opacity .3s ease-in;
+}
+
+.place__link:hover {
+    opacity: .6;
+}
+
+@media (min-width: 650px) {
+    .place__link {
+        padding: 0;
+    }
+}

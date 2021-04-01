@@ -1,0 +1,27 @@
+.lead__caption {
+    margin: 8px auto 0;
+    max-width: calc(100% - 32px);
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 14px;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+}
+
+@media (min-width: 650px) {
+    .lead__caption {
+        max-width: calc(100% - 48px);
+    }
+}
+
+@media (min-width: 950px) {
+    .lead__caption {
+        max-width: calc(100% - 96px);
+    }
+}
+
+@media (min-width: 1250px) {
+    .lead__caption {
+        max-width: 984px;
+    }
+}

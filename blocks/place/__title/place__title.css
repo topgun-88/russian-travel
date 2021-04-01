@@ -1,0 +1,22 @@
+.place__title {
+    margin: 0;
+    padding: 0 16px;
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 35px;
+}
+
+@media (min-width: 650px) {
+    .place__title {
+        padding: 0;
+        font-size: 42px;
+        line-height: 46px;
+    }
+}
+
+@media (min-width: 950px) {
+    .place__title {
+        font-size: 72px;
+        line-height: 76px;
+    }
+}
