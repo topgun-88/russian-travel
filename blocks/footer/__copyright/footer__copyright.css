@@ -3,12 +3,12 @@
     font-weight: normal;
     font-size: 14px;
     line-height: 1;
+    align-self: end;
 }
 
 @media (min-width: 650px) {
     .footer__copyright {
-        margin: 0;
+        margin: 0 0 0 auto;
         line-height: 16px;
-        margin-left: auto;
     }
 }

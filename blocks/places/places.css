@@ -7,14 +7,14 @@
 
 @media (min-width: 650px) {
     .places {
-        padding: 88px 0;
+        padding: 15px 0 90px;
         max-width: calc(100% - 48px);
     }
 }
 
 @media (min-width: 950px) {
     .places {
-        padding: 92px 0;
+        padding: 12px 0 92px;
         max-width: calc(100% - 96px);
     }
 }

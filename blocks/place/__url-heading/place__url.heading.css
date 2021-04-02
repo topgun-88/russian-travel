@@ -6,6 +6,7 @@
     line-height: 12px;
     letter-spacing: 0.2em;
     color: #AAAAAA;
+    text-transform: uppercase;
 }
 
 @media (min-width: 650px) {

@@ -8,12 +8,14 @@
 
 @media (min-width: 650px) {
     .photo-grid {
+        padding: 0 24px;
         gap: 16px;
     }
 }
 
 @media (min-width: 950px) {
     .photo-grid {
+        padding: 0 48px;
         gap: 14px;
     }
 }
